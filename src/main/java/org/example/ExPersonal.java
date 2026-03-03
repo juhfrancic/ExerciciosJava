@@ -5,7 +5,6 @@ public class ExPersonal {
             SaldoInsuficienteException {
             if(valor > saldo){
                 throw new SaldoInsuficienteException("Saldo insuficiente! Saldo: " + saldo);
-
         }
     }
 
